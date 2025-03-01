@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+Khmer:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Chart JS -->
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"
+    ></script>
+    <!-- Chart JS Plugin for displaying text over chart -->
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.1.0/chartjs-plugin-datalabels.min.js"
+    ></script>
+    <script defer src="index.js"></script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <canvas id="wheel"></canvas>
+        <button id="spin-btn">Spin</button>
+        <img src="spinner-arrow.svg" alt="" />
+      </div>
+
+      <div class="prize-wrap">
+        <h3 class="prize_heading">បញ្ជីរង្វាន់</h3>
+        <div class="prize-list">
+          <li style="font-size: 1.5rem">1. iPad Pro 👑</li>
+          <li>2. ដបទឹក</li>
+          <li>3. ទឹកអប់ឡាន</li>
+          <li>4. ស្រ្ពាយបាញ់កង់ឡាន</li>
+          <li>5. ទឹកអប់ឡាន</li>
+          <li>6. ដបទឹក</li>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
